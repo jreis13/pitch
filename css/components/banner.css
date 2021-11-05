@@ -1,0 +1,42 @@
+.image-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.664)), url('../../images/background.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* padding: 20em 0; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner h1 {
+  font-size: 4em;
+  letter-spacing: 3px;
+  color:whitesmoke;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  padding: 10px 0
+}
+
+.banner p {
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  margin-bottom: 3%;
+}
+
+.banner .container {
+  margin-bottom: 55px;
+}
+
+.banner a {
+  background-color: #6AD58B;
+  font-weight: 700;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.banner a:hover {
+  background-color: #3ac162;
+}
